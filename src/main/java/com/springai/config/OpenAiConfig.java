@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 @Slf4j
 public class OpenAiConfig {
 
-    @Value("${OPEN_AI_KEY}")
+    @Value("${spring.ai.openai.api-key}")
     private String OPEN_AI_KEY;
 
     @Bean
